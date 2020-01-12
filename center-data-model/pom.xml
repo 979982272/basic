@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.htree</groupId>
+    <artifactId>center-data-model</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>center-data-model</name>
+    <description>模型模块，vo，dto等写在这个模块中</description>
+
+    <parent>
+        <groupId>com.htree</groupId>
+        <artifactId>center-data-parent</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>net.sf.json-lib</groupId>
+            <artifactId>json-lib</artifactId>
+            <classifier>jdk15</classifier>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <!--  <plugin>
+                  <groupId>org.springframework.boot</groupId>
+                  <artifactId>spring-boot-maven-plugin</artifactId>
+                  <version>1.5.9.RELEASE</version>
+              </plugin>-->
+            <!-- <plugin>
+                 <groupId>org.springframework.boot</groupId>
+                 <artifactId>spring-boot-maven-plugin</artifactId>
+             </plugin>-->
+            <!-- 是maven的profile在springBoot中能够读取到-->
+            <!--<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <configuration>
+                    <delimiters>
+                        <delimiter>${*}</delimiter>
+                    </delimiters>
+                </configuration>
+            </plugin>-->
+        </plugins>
+        <!-- <resources>
+             &lt;!&ndash; 把在java目录下的xml配置文件打进jar&ndash;&gt;
+             <resource>
+                 <directory>src/main/java</directory>
+                 <includes>
+                     <include>**/*.xml</include>
+                 </includes>
+             </resource>
+             &lt;!&ndash; 打resource下的文件，排除二进制文件&ndash;&gt;
+             <resource>
+                 <directory>src/main/resources</directory>
+                 <filtering>true</filtering>
+                 <includes>
+                     <include>**/*.*</include>
+                 </includes>
+                 <excludes>
+                     <exclude>**/*.otf</exclude>
+                     <exclude>**/*.eot</exclude>
+                     <exclude>**/*.svg</exclude>
+                     <exclude>**/*.ttf</exclude>
+                     <exclude>**/*.woff</exclude>
+                     <exclude>**/*.woff2</exclude>
+                 </excludes>
+             </resource>
+             &lt;!&ndash; 导入二进制文件&ndash;&gt;
+             <resource>
+                 <directory>src/main/resources</directory>
+                 <filtering>false</filtering>
+                 <includes>
+                     <include>**/*.otf</include>
+                     <include>**/*.eot</include>
+                     <include>**/*.svg</include>
+                     <include>**/*.ttf</include>
+                     <include>**/*.woff</include>
+                     <include>**/*.woff2</include>
+                 </includes>
+             </resource>
+         </resources>-->
+    </build>
+
+</project>

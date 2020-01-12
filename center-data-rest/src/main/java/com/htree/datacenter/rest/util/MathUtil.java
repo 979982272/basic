@@ -1,4 +1,4 @@
-package com.htree.datacenter.util;
+package com.htree.datacenter.rest.util;
 
 import java.math.BigDecimal;
 

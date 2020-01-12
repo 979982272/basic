@@ -1,4 +1,4 @@
-package com.htree.datacenter.util;
+package com.htree.datacenter.rest.util;
 
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;

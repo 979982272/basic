@@ -1,4 +1,4 @@
-package com.htree.datacenter.extra.system;
+package com.htree.datacenter.rest.extra.system;
 
 /**
  * 验证信息

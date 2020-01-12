@@ -1,4 +1,4 @@
-package com.htree.datacenter.util;
+package com.htree.datacenter.rest.util;
 
 import org.apache.ibatis.datasource.pooled.PooledDataSource;
 import org.apache.ibatis.mapping.Environment;
