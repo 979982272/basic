@@ -1,7 +1,7 @@
 package com.htree.datacenter.rest.util;
 
 
-import tk.mybatis.mapper.util.StringUtil;
+import org.apache.commons.lang.StringUtils;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -42,7 +42,7 @@ public class PropertiesUtil {
         Properties properties = propertiesUtils.getProperties("sysconfig.properties");
         String value = properties.getProperty(code);
         for (int i = 0; i < objects.length; i++) {
-            if (StringUtil.isNotEmpty(value) && value.indexOf("{" + i + "}") > 0) {
+            if (StringUtils.isNotEmpty(value) && value.indexOf("{" + i + "}") > 0) {
                 value = value.replaceAll("\\{" + i + "\\}", objects[i] != null ? objects[i].toString() : "");
             }
         }

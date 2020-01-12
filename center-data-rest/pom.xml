@@ -38,6 +38,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.htree</groupId>
             <artifactId>center-data-core</artifactId>
             <version>${center.data.version}</version>
@@ -72,44 +77,44 @@
                 </configuration>
             </plugin>-->
         </plugins>
-       <!-- <resources>
-            &lt;!&ndash; 把在java目录下的xml配置文件打进jar&ndash;&gt;
-            <resource>
-                <directory>src/main/java</directory>
-                <includes>
-                    <include>**/*.xml</include>
-                </includes>
-            </resource>
-            &lt;!&ndash; 打resource下的文件，排除二进制文件&ndash;&gt;
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>**/*.*</include>
-                </includes>
-                <excludes>
-                    <exclude>**/*.otf</exclude>
-                    <exclude>**/*.eot</exclude>
-                    <exclude>**/*.svg</exclude>
-                    <exclude>**/*.ttf</exclude>
-                    <exclude>**/*.woff</exclude>
-                    <exclude>**/*.woff2</exclude>
-                </excludes>
-            </resource>
-            &lt;!&ndash; 导入二进制文件&ndash;&gt;
-            <resource>
-                <directory>src/main/resources</directory>
-                <filtering>false</filtering>
-                <includes>
-                    <include>**/*.otf</include>
-                    <include>**/*.eot</include>
-                    <include>**/*.svg</include>
-                    <include>**/*.ttf</include>
-                    <include>**/*.woff</include>
-                    <include>**/*.woff2</include>
-                </includes>
-            </resource>
-        </resources>-->
+        <!-- <resources>
+             &lt;!&ndash; 把在java目录下的xml配置文件打进jar&ndash;&gt;
+             <resource>
+                 <directory>src/main/java</directory>
+                 <includes>
+                     <include>**/*.xml</include>
+                 </includes>
+             </resource>
+             &lt;!&ndash; 打resource下的文件，排除二进制文件&ndash;&gt;
+             <resource>
+                 <directory>src/main/resources</directory>
+                 <filtering>true</filtering>
+                 <includes>
+                     <include>**/*.*</include>
+                 </includes>
+                 <excludes>
+                     <exclude>**/*.otf</exclude>
+                     <exclude>**/*.eot</exclude>
+                     <exclude>**/*.svg</exclude>
+                     <exclude>**/*.ttf</exclude>
+                     <exclude>**/*.woff</exclude>
+                     <exclude>**/*.woff2</exclude>
+                 </excludes>
+             </resource>
+             &lt;!&ndash; 导入二进制文件&ndash;&gt;
+             <resource>
+                 <directory>src/main/resources</directory>
+                 <filtering>false</filtering>
+                 <includes>
+                     <include>**/*.otf</include>
+                     <include>**/*.eot</include>
+                     <include>**/*.svg</include>
+                     <include>**/*.ttf</include>
+                     <include>**/*.woff</include>
+                     <include>**/*.woff2</include>
+                 </includes>
+             </resource>
+         </resources>-->
     </build>
 
 </project>
