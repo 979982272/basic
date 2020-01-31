@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.htree.datacenter.core.emp.dao.EidpEmpDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.htree.datacenter.core.emp.entity.EidpEmp">
+        <id column="id" property="id" />
+        <result column="username" property="username" />
+        <result column="password" property="password" />
+        <result column="sex" property="sex" />
+        <result column="department" property="department" />
+        <result column="superior" property="superior" />
+        <result column="post" property="post" />
+        <result column="title" property="title" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="birth" property="birth" />
+        <result column="enrollment" property="enrollment" />
+        <result column="resign" property="resign" />
+        <result column="contract" property="contract" />
+        <result column="createtime" property="createtime" />
+        <result column="create_emp_id" property="createEmpId" />
+        <result column="create_emp" property="createEmp" />
+        <result column="modifytime" property="modifytime" />
+        <result column="modify_emp_id" property="modifyEmpId" />
+        <result column="modify_emp" property="modifyEmp" />
+        <result column="server_flag" property="serverFlag" />
+        <result column="version" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, username, password, sex, department, superior, post, title, phone, email, birth, enrollment, resign, contract, createtime, create_emp_id, create_emp, modifytime, modify_emp_id, modify_emp, server_flag, version
+    </sql>
+
+</mapper>
