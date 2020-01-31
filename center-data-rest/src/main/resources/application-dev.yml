@@ -1,16 +1,14 @@
 server:
   port: 8088
-  context-path: /
 person:
   name: 开发环境
   age: 24
 ##数据源配置
 spring:
   datasource:
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://123.207.55.47:3306/base?autoReconnect=true&useUnicode=true&characterEncoding=utf-8
     username: base
     password: tudou123-
-    type: com.alibaba.druid.pool.DruidDataSource
-    driverClassName: com.mysql.jdbc.Driver
 
 
