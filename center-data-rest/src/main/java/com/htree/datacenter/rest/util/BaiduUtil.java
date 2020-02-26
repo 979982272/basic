@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * @author weihua
- * @description 百度工具
+ * @description 百度工具 单个id 每天可以调用五万次通用文字识别
  * @date 2020/2/26 0026
  **/
 public class BaiduUtil {
