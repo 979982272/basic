@@ -14,7 +14,8 @@ import static com.htree.datacenter.rest.util.BaiduUtil.basicGeneral;
  **/
 public class PicTest {
 
-    public static final String PIC_PATH = "http://yzyx-guangzhou20180315-1256259170.cos-website.ap-guangzhou.myqcloud.com/2020/01/05/15/14236442_1_1th.jpg";
+    //public static final String PIC_PATH = "http://yzyx-guangzhou20180315-1256259170.cos-website.ap-guangzhou.myqcloud.com/2020/01/05/15/14236442_1_1th.jpg";
+    public static final String PIC_PATH = "http://yzyx-guangzhou20180315-1256259170.cos-website.ap-guangzhou.myqcloud.com/2020/05/27/10/14795215_1_2th.jpg";
     private static final String word = "机身联";
 
     public final static void main(String[] args) throws Exception {

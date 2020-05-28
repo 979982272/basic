@@ -56,9 +56,15 @@ public class BaiduUtil {
      * @return
      */
     private static List<BaiduApiInfo> createBaiduApiInfo() {
-        List<BaiduApiInfo> baiduApiInfos = baiduApiInfos = new ArrayList<>();
+        List<BaiduApiInfo> baiduApiInfos = new ArrayList<>();
         BaiduApiInfo b1 = new BaiduApiInfo("18282548", "9Mjlx7LmrjeX8ymHGF26DSyG", "keyUX36ZrBCSs1f1ssenrr4vcR1h3BsC");
+        BaiduApiInfo b2 = new BaiduApiInfo("20110989", "M1tBdCh9gsKsziyrkiGTEGCG", "90YrQfVoxfwBiNaMz5Go7jfip9GUrZSs");
+        BaiduApiInfo b3 = new BaiduApiInfo("20111046", "qcuiZGG3R4BG3C49ZGpE2mxP", "mkZtnxMwi66139VEuRPpfww0XkKpXiXo");
+        BaiduApiInfo b4 = new BaiduApiInfo("20111144", "eMde6GcwB11cUXnEQ8hVit4m", "j3Bp4Ns0j3ZCf0GA2jpMDsHMMa5gT1zF");
         baiduApiInfos.add(b1);
+        baiduApiInfos.add(b2);
+        baiduApiInfos.add(b3);
+        baiduApiInfos.add(b4);
         return baiduApiInfos;
     }
 
